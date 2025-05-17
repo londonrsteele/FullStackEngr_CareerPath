@@ -43,6 +43,7 @@ nav > ul {
     height: 700px;
     width: 1200px;
     display: flex;
+    margin: 0px auto;
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
@@ -56,4 +57,33 @@ nav > ul {
     align-items: center;
     justify-content: space-around;
     min-height: 80px;
+}
+
+#FeaturedTea {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-gallery {
+    width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.photo-gallery-photo {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
