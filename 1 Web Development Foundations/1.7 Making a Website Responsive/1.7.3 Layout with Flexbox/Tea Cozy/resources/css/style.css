@@ -125,3 +125,17 @@ figcaption {
     justify-content: space-around;
     align-items: center;
 }
+
+#Info {
+    height: 200px;
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin: 50px 20px;
+}
